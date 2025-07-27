@@ -1,0 +1,9 @@
+/* Tuỳ chỉnh nhỏ nếu cần - mặc định Tailwind xử lý chính */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gieo Quẻ Kinh Dịch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+  <div class="bg-white shadow-lg rounded-2xl w-full max-w-xl p-6">
+    <h1 class="text-2xl font-semibold text-center mb-4">🔮 Gieo Quẻ Kinh Dịch</h1>
+
+    <button id="castButton" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-xl transition-all">Gieo Quẻ</button>
+
+    <p id="loading" class="text-center mt-4 text-gray-600 hidden">⏳ Đang gieo quẻ...</p>
+    <p id="limitMsg" class="text-center mt-4 text-red-500 hidden">⚠️ Vui lòng trở lại vào ngày mai</p>
+
+    <div id="result" class="mt-6 whitespace-pre-line text-gray-800"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
